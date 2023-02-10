@@ -39,13 +39,13 @@ export const userApi: User = {
   subtitles: {
     title_1: {
       icon: humble,
-      first: "Hi, I'm Tran Duoc",
-      second: "I'm student at Can Tho university"
+      first: 'Hi, mình là Trần Được',
+      second: 'Là sinh viên của Đại Học Cần Thơ'
     },
     title_2: {
       icon: heart,
-      first: "I'm studying to ",
-      second: 'become a FrontEnd developer'
+      first: 'Mình đang học để ',
+      second: 'trở thành lập trinh viên FrontEnd'
     }
   }
 }
