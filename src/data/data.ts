@@ -92,7 +92,7 @@ export const projectApi: Project = {
       name: 'Trang Portfolio',
       technical: 'React TypeScript',
       link: 'https://github.com/Tran-Duoc/Portolio',
-      visit: ''
+      visit: 'https://portolio-seven.vercel.app/'
     }
   ]
 }
