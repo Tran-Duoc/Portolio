@@ -5,7 +5,7 @@ import ListSkill from '../ListSkill/ListSkills'
 const Skill = () => {
   const { title, languages, tools } = skillsAip
   return (
-    <div className='min-h-[50vh] grid grid-cols-1 grid-rows-[100px_auto] mt-10 ' id='skills'>
+    <div className='min-h-[50vh] grid grid-cols-1 grid-rows-[100px_auto] mt-10 overflow-hidden' id='skills'>
       <div className='h-full text-center'>
         <span className='title block'>{title}</span>
       </div>

@@ -6,7 +6,7 @@ import Toast from '../Toast/Toast'
 const Person: React.FC = () => {
   const { image, subtitles } = userApi
   return (
-    <div className='min-h-[70vh] lg:min-h-[80vh] sm:min-h-[90vh] mt-16 lg:mt-0'>
+    <div className='min-h-[70vh] lg:min-h-[80vh] sm:min-h-[90vh] mt-16 lg:mt-0 '>
       <div className='relative max-w-xl w-full mx-auto h-[60vh]'>
         <div>
           <img

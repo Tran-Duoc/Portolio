@@ -15,7 +15,7 @@ const MyStory: React.FC = () => {
   }
 
   return (
-    <div className=' w-full  mx-auto min-h-[60vh]  grid grid-cols-1 grid-rows-[120px_auto] mt-10 h-full lg:mt-16'>
+    <div className=' w-full  mx-auto min-h-[60vh]  grid grid-cols-1 grid-rows-[120px_auto] mt-10 h-full lg:mt-16 overflow-hidden'>
       <div>
         <p className='title'> {title}</p>
         <div className='line' />

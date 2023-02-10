@@ -5,7 +5,7 @@ const MyProject = () => {
   const { title, desc, list } = projectApi
   // const location: string[] = ['top-1/2 -translate-y-1/2', 'left-1/2 -translate-x-1/2', 'right-1 top-1/2']
   return (
-    <div className='min-h-[50vh] flex flex-col mt-10 h-full lg:mt-16' id='project'>
+    <div className='min-h-[50vh] flex flex-col mt-10 h-full lg:mt-16 overflow-hidden' id='project'>
       <div>
         <p className='title'>{title}</p>
         <div className='line' />
