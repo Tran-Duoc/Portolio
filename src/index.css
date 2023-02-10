@@ -6,7 +6,7 @@
 
 @layer base {
   .container {
-    @apply min-h-screen bg-theme px-[10%] md:px-5;
+    @apply min-h-screen bg-theme px-[10%] md:px-5 overflow-hidden;
   }
   .hover-item {
     @apply hover:text-hover;
