@@ -1,7 +1,12 @@
-import React from "react";
+import React from 'react'
+import Thankyou from '../components/ThankYou/Thankyou'
 
 const Footer: React.FC = () => {
-   return <div>Footer</div>;
-};
+  return (
+    <div>
+      <Thankyou />
+    </div>
+  )
+}
 
-export default Footer;
+export default Footer
