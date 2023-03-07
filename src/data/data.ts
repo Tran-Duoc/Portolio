@@ -52,7 +52,7 @@ export const userApi: User = {
 
 export const myStoryApi: Story = {
   title: 'Một chúc về bản thân mình.',
-  reason: 'Tại sao lại chọn lập trinh web ?',
+  reason: 'Tại sao lại chọn lập Trình web ?',
   story: [
     {
       year: 2021,
